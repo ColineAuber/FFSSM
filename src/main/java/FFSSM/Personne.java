@@ -78,5 +78,11 @@ public class Personne
 
     public void setNaissance(LocalDate naissance) {
         this.naissance = naissance;
-    }	
+    }
+
+    @Override
+    public String toString() {
+        return "numeroINSEE=" + numeroINSEE + ", nom=" + nom + ", prenom=" + prenom + ", adresse=" + adresse + ", telephone=" + telephone + ", naissance=" + naissance + '}';
+    }
+    
 }
